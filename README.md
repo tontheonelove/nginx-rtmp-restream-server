@@ -36,7 +36,7 @@ rtmp {
         application live {
             live on;
 
-            # ใส่ปลายทาง restream ตรงนี้ เช่น:
+            # Your restream target
             # push rtmp://a.rtmp.youtube.com/live2/YOURKEY;
             # push rtmp://live.twitch.tv/app/YOURKEY;
         }
